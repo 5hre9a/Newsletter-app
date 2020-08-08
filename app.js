@@ -29,10 +29,10 @@ app.post("/", function(req, res) {
 
   var jsonData = JSON.stringify(data);
   var options = {
-    url: "https://us17.api.mailchimp.com/3.0/lists/86de48ea8f",
+    url: "https://us17.api.mailchimp.com/3.0/lists/enter_key",
     method: "POST",
     headers: {
-      Authorization: "5hre9a 7bbc9a0284595fd60b3355d416ca81bb-us17"
+      Authorization: "5hre9a enter_big_key"
     },
     body: jsonData
   };
@@ -61,6 +61,4 @@ app.listen(process.env.PORT || 3000, function() {
 
 
 
-//7bbc9a0284595fd60b3355d416ca81bb-us17
 
-//86de48ea8f
